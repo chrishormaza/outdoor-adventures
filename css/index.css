@@ -18,6 +18,11 @@ body{
     background-image: url(../images/backgrounds/leaves-bg.jpg);
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 /*Navigation Bar*/
 .navbar{
     backdrop-filter: blur(8px);
@@ -82,6 +87,10 @@ footer{
     color: white;
 }
 
+.media-icons i:hover{
+    color: rgb(28, 141, 46);
+}
+
 .container-footer p{
     font-size: 20px;
     font-family: 'Agbalumo', sans-serif;
@@ -118,6 +127,10 @@ footer{
     font-family: 'Agbalumo', sans-serif;
 }
 
+.carousel-caption h1:hover{
+    color: rgb(28, 141, 46);
+}
+
 /*About*/
 .about-title{
     font-family: 'Agbalumo', sans-serif;
@@ -145,6 +158,10 @@ footer{
 
 .card-title{
     text-align: center;
+}
+
+.card-title:hover{
+    color: rgb(28, 141, 46);
 }
 
 .card-text{
