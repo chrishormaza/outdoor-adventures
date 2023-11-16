@@ -1,0 +1,114 @@
+*{
+    padding: ;
+    margin: ;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url(../images/backgrounds/leaves-bg.jpg);
+}
+
+/*Navigation Bar*/
+.navbar{
+    backdrop-filter: blur(8px);
+    z-index: 10000;
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-family: 'Agbalumo', sans-serif;
+    color: white;
+}
+
+.navbar-brand:hover{
+    color: rgb(28, 141, 46);
+}
+
+.nav-link{
+    font-size: 20px;
+    color: white;
+    font-family: 'Agbalumo', sans-serif;
+}
+
+.nav-link:hover{
+    color: rgb(28, 141, 46);
+}
+
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    text-align: center;
+    border: 2px solid white;
+    margin-right: -35px;
+    background-color: transparent;
+    font-family: 'Agbalumo', sans-serif;
+}
+
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    border-radius: 60px;
+    background: white;
+    color: black;
+}
+
+.btn0:hover{
+    color: rgb(28, 141, 46);
+}
+
+/* Footer Styling*/
+footer{
+    backdrop-filter: blur(8px);
+    color: white;
+    padding: 8px;
+    margin-top: auto;
+}
+
+.media-icons{
+    font-size: 25px;
+    color: white;
+}
+
+.container-footer p{
+    font-size: 20px;
+    font-family: 'Agbalumo', sans-serif;
+    color: white;
+}
+
+.newsletter_section h2{
+    font-family: 'Agbalumo', sans-serif;
+}
+
+.email{
+    height: 40px;
+    width: 30%;
+    border-radius: 60px;
+    margin-right: -35px;
+    outline: none;
+    text-align: center;
+    border: 2px solid rgb(28, 141, 46);
+    font-family: 'Agbalumo', sans-serif;
+}
+
+.btn1{
+    height: 40px;
+    width: 5%;
+    outline: none;
+    border: none;
+    border-radius: 60px;
+    background: rgb(28, 141, 46);
+    color: white;
+}
