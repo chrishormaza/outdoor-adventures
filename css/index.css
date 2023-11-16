@@ -131,8 +131,22 @@ footer{
     text-align: center;
 }
 
+/*Cards*/
 .card{
     background-color: rgba(0, 0, 0, 0.151);
     backdrop-filter: blur(8px);
     border: none;
+}
+
+.card-body{
+    font-family: 'Agbalumo', sans-serif;
+    color: white;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card-text{
+    font-size: 18px;
 }
