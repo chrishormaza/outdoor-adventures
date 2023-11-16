@@ -112,3 +112,27 @@ footer{
     background: rgb(28, 141, 46);
     color: white;
 }
+
+/*Carousel*/
+.carousel-caption{
+    font-family: 'Agbalumo', sans-serif;
+}
+
+/*About*/
+.about-title{
+    font-family: 'Agbalumo', sans-serif;
+    color: white;
+}
+
+.about-section{
+    font-family: 'Agbalumo', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.card{
+    background-color: rgba(0, 0, 0, 0.151);
+    backdrop-filter: blur(8px);
+    border: none;
+}
