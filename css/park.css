@@ -18,6 +18,11 @@ body{
     background-image: url(../images/backgrounds/yosemite-bg.jpg);
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 /*Navigation Bar*/
 .navbar{
     backdrop-filter: blur(8px);
@@ -80,6 +85,10 @@ footer{
 .media-icons{
     font-size: 25px;
     color: white;
+}
+
+.media-icons i:hover{
+    color: rgb(52, 150, 193);
 }
 
 .container-footer p{
