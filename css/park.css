@@ -121,3 +121,13 @@ footer{
     background: rgb(52, 150, 193);
     color: white;
 }
+
+.page-title{
+    font-family: 'Agbalumo', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+/*.select-items {
+    display: flex;
+    justify-content: center;
+  }*/

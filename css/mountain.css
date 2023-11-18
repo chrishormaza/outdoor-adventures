@@ -121,3 +121,9 @@ footer{
     background: rgb(227, 156, 23);
     color: white;
 }
+
+.page-title{
+    font-family: 'Agbalumo', sans-serif;
+    font-size: 50px;
+    color: white;
+}
