@@ -50,18 +50,29 @@
       </nav>
     </header>
 
-    <p class="page-title text-center"> National Parks</p>
+    <main>
+      <p class="page-title text-center"> National Parks</p>
+      <p class="page-about text-center"> Pick Which Park & Location You'd Like To Visit Next!</p>
+      
+      <div class="container-fluid">
+        <div class="row d-flex justify-content-center">
+          <div class="col-5">
+            <label for="parkTypeList" class="form-label d-flex justify-content-center">Park Types</label>
+            <select class="form-select text-center" id="parkTypeList">
+              <option value="">Select Park Type</option>
+            </select>
+          </div>
+          <div class="col-5">
+            <label for="locationList" class="form-label d-flex justify-content-center">Locations</label>
+            <select class="form-select text-center" id="locationList">
+              <option value="">Select State</option>
+            </select>
+          </div>
+        </div>
+      </div>
 
-    <div class="select-items">
-      <select id="state-selection" class="form-select form-select-sm" name="state-selection">
-        <option class="state-text" selected>State Search</option>
-        <option value=""></option>
-      </select>
-      <select id="park-type" class="form-select form-select-sm" name="park-type" id="park-type">
-        <option class="park-text" selected>Park Search</option>
-        <option value=""></option>
-      </select>
-    </div>
+
+    </main>
 
     <footer>
       <!--Newletter Section-->

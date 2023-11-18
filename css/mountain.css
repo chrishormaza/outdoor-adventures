@@ -101,6 +101,10 @@ footer{
     font-family: 'Agbalumo', sans-serif;
 }
 
+.newsletter_section h2:hover{
+    color: rgb(227, 156, 23);
+}
+
 .email{
     height: 40px;
     width: 30%;
@@ -126,4 +130,20 @@ footer{
     font-family: 'Agbalumo', sans-serif;
     font-size: 50px;
     color: white;
+}
+
+.page-about{
+    font-family: 'Agbalumo', sans-serif;
+    font-size: 28px;
+    color: white;
+}
+
+.form-label{
+    font-family: 'Agbalumo', sans-serif;
+    font-size: 23px;
+    color: white;
+}
+
+.form-select{
+    font-family: 'Agbalumo', sans-serif;
 }
