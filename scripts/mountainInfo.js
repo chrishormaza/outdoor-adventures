@@ -7,19 +7,23 @@ function init(){
 }
 
 function mountainsDropdown(){
-    const elementSelected = document.getElementById("mountainOption");
-    elementSelected.onchange = differentMountain;
+    const mountSelected = document.getElementById("mountainOption");
+    mountSelected.onchange = differentMountain;
 
     for (let mountain of mountainsArray){
         const mountainPicked = document.createElement("option");
 
         mountainPicked.innerText = mountain.name;
         mountainPicked.value = mountain.name;
-        elementSelected.appendChild(mountainPicked);
+        mountSelected.appendChild(mountainPicked);
     }
 }
 
 function differentMountain(){
-    const elementSelected = document.getElementById("mountainOption");
-    const mountainSelected = elementSelected.value;
+    const mountSelected = document.getElementById("mountainOption");
+    let mountainSelected = mountSelected.value;
+
+    for (mountainSelected of mountainsArray){
+        
+    }
 }
