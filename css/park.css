@@ -151,3 +151,21 @@ footer{
     font-family: 'Agbalumo', sans-serif;
 }
 
+/*Park Card Styling*/
+.card{
+    background-color: rgba(0, 0, 0, 0.151);
+    backdrop-filter: blur(8px);
+    border: none;
+}
+
+.card-body{
+    font-family: 'Agbalumo', sans-serif;
+    color: white;
+}
+.card-title{
+    font-size: 30px;
+}
+
+.card-text{
+    font-size: 18px;
+}

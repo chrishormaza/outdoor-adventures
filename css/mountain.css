@@ -148,6 +148,7 @@ footer{
     font-family: 'Agbalumo', sans-serif;
 }
 
+/*Mountain Card Styling*/
 .card{
     background-color: rgba(0, 0, 0, 0.151);
     backdrop-filter: blur(8px);
@@ -165,3 +166,4 @@ footer{
 .card-text{
     font-size: 18px;
 }
+

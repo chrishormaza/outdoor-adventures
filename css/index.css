@@ -15,7 +15,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-image: url(../images/backgrounds/leaves-bg.jpg);
+    background-image: url(../images/backgrounds/camping.jpg);
 }
 
 a{
@@ -35,7 +35,7 @@ a{
 }
 
 .navbar-brand:hover{
-    color: rgb(28, 141, 46);
+    color: rgb(27, 103, 170);
 }
 
 .nav-link{
@@ -45,7 +45,7 @@ a{
 }
 
 .nav-link:hover{
-    color: rgb(28, 141, 46);
+    color: rgb(27, 103, 170);
 }
 
 .search{
@@ -71,7 +71,7 @@ a{
 }
 
 .btn0:hover{
-    color: rgb(28, 141, 46);
+    color: rgb(27, 103, 170);
 }
 
 /* Footer Styling*/
@@ -88,7 +88,7 @@ footer{
 }
 
 .media-icons i:hover{
-    color: rgb(28, 141, 46);
+    color: rgb(27, 103, 170);
 }
 
 .container-footer p{
@@ -108,7 +108,7 @@ footer{
     margin-right: -35px;
     outline: none;
     text-align: center;
-    border: 2px solid rgb(28, 141, 46);
+    border: 2px solid rgb(27, 103, 170);
     font-family: 'Agbalumo', sans-serif;
 }
 
@@ -118,7 +118,7 @@ footer{
     outline: none;
     border: none;
     border-radius: 60px;
-    background: rgb(28, 141, 46);
+    background: rgb(27, 103, 170);
     color: white;
 }
 
@@ -128,7 +128,7 @@ footer{
 }
 
 .carousel-caption h1:hover{
-    color: rgb(28, 141, 46);
+    color: rgb(27, 103, 170);
 }
 
 /*About*/
@@ -161,7 +161,7 @@ footer{
 }
 
 .card-title:hover{
-    color: rgb(28, 141, 46);
+    color: rgb(27, 103, 170);
 }
 
 .card-text{

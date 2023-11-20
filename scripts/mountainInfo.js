@@ -41,7 +41,7 @@ function differentMountain(){
     const coordsLng = document.getElementById("coordsLng");
 
     for (let mountain of mountainsArray){
-        if (mountainSelected === mountain.name){
+        if (mountainSelected == mountain.name){
             image.src = `images/mountainImages/${mountain.img}`;
             title.innerText = mountain.name;
             description.innerText = mountain.desc;
@@ -57,7 +57,6 @@ function differentMountain(){
                 sunrise.innerText = data.results.sunrise;
                 sunset.innerText = data.results.sunset;
         });
-
         }
     }
 }
