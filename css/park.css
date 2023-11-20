@@ -160,13 +160,14 @@ footer{
 
 .card-body{
     font-family: 'Agbalumo', sans-serif;
-    color: white;
 }
 .card-title{
     font-size: 30px;
+    color: beige;
 }
 
 .card-text{
     font-size: 18px;
+    color: beige;
 }
 
