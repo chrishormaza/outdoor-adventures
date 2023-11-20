@@ -6,9 +6,10 @@ function init(){
     mountainsDropdown();
 }
 
+//Populates dropdown with mountains
 function mountainsDropdown(){
     const mountSelected = document.getElementById("mountainOption");
-    mountSelected.onchange = differentMountain;
+    mountSelected.onchange = displayMountain;
 
     for (let mountain of mountainsArray){
         const mountainPicked = document.createElement("option");
@@ -19,13 +20,16 @@ function mountainsDropdown(){
     }
 }
 
+//Sunrise & Sunset API
 async function getSunsetForMountain(lat, lng){
     let response = await fetch( `https://api.sunrise-sunset.org/json?lat=${lat}&lng=${lng}&date=today`);
        let data = await response.json();
        return data;
     }
 
-function differentMountain(){
+
+//Displays mountain when selected    
+function displayMountain(){
     const mountSelected = document.getElementById("mountainOption");
     let mountainSelected = mountSelected.value;
 

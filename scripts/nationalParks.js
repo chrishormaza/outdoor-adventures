@@ -7,6 +7,7 @@ function init(){
     statesDropdown();
 }
 
+//Populates dropdown 
 function parksDropdown(){
     const parkTypeOption = document.getElementById("parkTypeOption");
     parkTypeOption.onchange = differentPark;
@@ -48,6 +49,7 @@ function differentState(){
     parkDisplay();
 }
 
+//Displays & filters park when selected
 function parkDisplay(){
     const displayContainer = document.getElementById("displayContainer");
     displayContainer.replaceChildren();
@@ -73,18 +75,15 @@ function parkDisplay(){
         displayContainer.innerHTML += 
         `
         <div class="card" style="width: 28rem;">                               
-         
-        <div class="card-body text-center">
-            <a href="${park.Visit}" target="_blank"><h3 class="card-title text-center">${park.LocationName}</h3></a>
-            <p class="card-text">Location ID: ${park.LocationID}</p>
-            <p class="card-text"> Located At: </p>
-            <p class="card-text">${park.Address}</p>
-            <p class="card-text">${park.City}, ${park.State} ${park.ZipCode} </p>
-            <p class="card-text">Phone:${park.Phone} | Fax:${park.Fax} </p>
-            <p class="card-text">Longitude: ${park.Longitude} | Latitude: ${park.Latitude} </p>
-
-        
-        </div>
+            <div class="card-body text-center">
+                <a href="${park.Visit}" target="_blank"><h3 class="card-title text-center">${park.LocationName}</h3></a>
+                <p class="card-text">Location ID: ${park.LocationID}</p>
+                <p class="card-text"> Located At: </p>
+                <p class="card-text">${park.Address}</p>
+                <p class="card-text">${park.City}, ${park.State} ${park.ZipCode} </p>
+                <p class="card-text">Phone:${park.Phone} | Fax:${park.Fax} </p>
+                <p class="card-text">Longitude: ${park.Longitude} | Latitude: ${park.Latitude} </p>
+            </div>
         </div>
         <div class="pt-md-3"></div>
         `
