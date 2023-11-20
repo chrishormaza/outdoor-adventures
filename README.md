@@ -8,8 +8,6 @@ Your Gateway to Outdoor Adventures!
 ## Interesting Piece
 - On the parks, I wanted to create a filter where the user can select both park type and location in the dropdown and it would fitler through the array to display to then displays what the user has selected. 
 
-let array = nationalParksArray;
-
     if (parkTypeSelected && stateSelected){
         array = array.filter((nationalPark) =>
             nationalPark.State === stateSelected && nationalPark.LocationName.includes(parkTypeSelected)
@@ -25,12 +23,12 @@ let array = nationalParksArray;
         nationalPark.State === stateSelected
         );
 
-### Outside Odyssey Home:
+## Outside Odyssey Home:
 ![Home](./images/sitePreview/homePage1.png)
 ![Home2](./images/sitePreview/homePage2.png)
 
-### Parks:
+## Parks:
 ![Park](./images/sitePreview/parkPage.png)
 
-### Mountains:
+## Mountains:
 ![Mountains](./images/sitePreview/mountainPage.png)
