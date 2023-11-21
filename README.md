@@ -24,6 +24,7 @@ let array = nationalParksArray;
         array = array.filter((nationalPark) =>
         nationalPark.State === stateSelected
         );
+}
 
 ## Outside Odyssey Home:
 ![Home](./images/sitePreview/homePage1.png)
