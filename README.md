@@ -6,7 +6,7 @@ Your Gateway to Outdoor Adventures!
 - This is our second capstone where we used HTML, CSS, Bootstrap, & JavaScript to build a website where users can pick their next outdoor adventure! The goal of this capstone was to implement functional dropdowns and when an option is selected, to display that information to the users. 
 
 ## Interesting Piece
-- On the parks, I wanted to create a filter where the user can select both park type and location in the dropdown and it would fitler through the array to display to then displays what the user has selected. 
+- In the parks page, I wanted to create a filter where the user can select both park type and location in the dropdown and it would fitler through the array to then display what the user has selected.
 
 let array = nationalParksArray;
 
