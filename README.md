@@ -8,7 +8,7 @@ Your Gateway to Outdoor Adventures!
 ## Interesting Piece
 - In the parks page, I wanted to create a filter where the user can select both park type and location in the dropdown and it would fitler through the array to then display what the user has selected.
 
-    let array = nationalParksArray;
+let array = nationalParksArray;
 
     if (parkTypeSelected && stateSelected){
         array = array.filter((nationalPark) =>
