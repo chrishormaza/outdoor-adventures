@@ -1,6 +1,6 @@
 # Outside Odyssey
-Your Gateway to Outdoor Adventures!
-"Outside Odyssey" is not just a website, it's a virtual haven for nature enthusiasts, adventure seekers, and those who crave the exhilaration of the great outdoors
+-Your Gateway to Outdoor Adventures!
+ "Outside Odyssey" is not just a website, it's a virtual haven for nature enthusiasts, adventure seekers, and those who crave the exhilaration of the great outdoors
 
 ## Insight
 - This is our second capstone where we used HTML, CSS, Bootstrap, & JavaScript to build a website where users can pick their next outdoor adventure! The goal of this capstone was to implement functional dropdowns and when an option is selected, to display that information to the users. 
